@@ -1,0 +1,88 @@
+body {
+  /* background-image: url("public/wec-23/images/background/windows-vista-1920x1080-aurora-microsoft-5k-23361.png"); */
+  background-color: #333333;
+  opacity: 0,3;
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: Verdana, sans-serif;
+}
+.nav-link {
+  border: 2px hidden #333333;
+  border-radius: 15px;
+  padding: 5px;
+  margin: 5px;
+  text-align: center;
+}
+.nav-link:hover {
+  background-color: #333333;
+}
+.dropdown a:hover {
+  background-color: #333333;
+}
+#judul1 {
+  border: 2px solid #007aa5;
+  border-radius: 6px;
+  padding: 5px;
+  margin: 5px;
+  background-color: lightskyblue;
+  text-align: center;
+  font-weight: bold;
+}
+#judul2 {
+  border: 2px solid darkred;
+  border-radius: 6px;
+  padding: 5px;
+  margin: 5px;
+  background-color:#dc143c;
+  text-align: center;
+  font-weight: bold;
+}
+#judul3 {
+  border: 2px solid lightskyblue;
+  border-radius: 6px;
+  padding: 5px;
+  margin: 5px;
+  background-color: lightblue;
+  text-align: center;
+  font-weight: bold;
+}
+#jumbotron1judul {
+  text-align: center;
+}
+.dropdown-menu li {
+  position: relative;
+}
+.dropdown-menu .dropdown-submenu {
+  display: none;
+  position: absolute;
+  left: 100%;
+  top: -7px;
+}
+.dropdown-menu .dropdown-submenu-left {
+  right: 100%;
+  left: auto;
+}
+  .dropdown-menu > li:hover > .dropdown-submenu {
+  display: block;
+}
+#HomeButton {
+  margin-left: auto;
+}
+#intro-shopee {
+    text-align: justify;
+    justify-content: center;
+    color: #f5b400;
+    font-family: II Vorkurs Medium, sans-serif;
+    font-weight: bold;
+}
+#title-shopee {
+    font-family: II Vorkurs Medium, sans-serif;
+    text-align: center;
+    color: #f5b400;
+    font-weight: bold;
+}
+#navbar-bottom {
+    color: #f45b2b;
+}
