@@ -25,7 +25,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>WEC-2023-VF</title>
+    <title>WEC-2023-VF (DB-BK) [MultiAuth]</title>
     <link href="{{ asset('wec-23/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
     <link rel="stylesheet" href="{{ asset('wec-23/bootstrap/css/bootstrap.css') }}">
     <link rel="shortcut icon" href="{{ asset('wec-23/images/icon/favicon-wearnes.ico') }}" type="image/x-icon">
@@ -66,7 +66,7 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 @auth
                     <li class="navbar-nav me-auto">
-                        <a class="nav-link text-white" href="{{ url('/home') }}">Data Belanja</a>
+                        <a class="nav-link text-white" href="{{ url('/home') }}">Data Bansos</a>
                     </li>
                 @else
                     <li class="navbar-nav ms-auto">
@@ -111,7 +111,7 @@
                     <img src="{{ asset('wec-23/images/logo/Logo DTKS.png') }}" alt="Wearnes Logo" style="max-width: 100%; height:auto;">
                 </div>
                 <div class="col text-center mb-3 mt-3 ms-3 me-3">
-                    <h3 id="title-shopee" class="mt-3 mb-3">BANSOS KEMENSOS</h3>
+                    <h3 id="title-shopee" class="mt-3 mb-3">BANSOS KEMENSOS (MULTI-AUTH)</h3>
                     <p id="intro-shopee" class="mt-3 mb-3">Nama saya Vega Febriliananda, dari Kampus Wearnes Education
                         Center, Kelas/Jurusan IK2, dan ini adalah Database Bansos Kemensos saya buat, Terimakasih.</p>
                 </div>
